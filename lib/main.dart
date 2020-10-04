@@ -97,7 +97,7 @@ class HomeScreen extends StatelessWidget {
                 width: 200.0,
                 height: 100.0,
                 child: OutlineButton(
-                  borderSide: BorderSide(width: 2.0, color: Colors.cyanAccent),
+                  borderSide: BorderSide(width: 1.0, color: Colors.tealAccent),
                   padding: EdgeInsets.only(left: 22.0),
                   color: Colors.teal[800],
                   shape: RoundedRectangleBorder(
@@ -121,8 +121,10 @@ class HomeScreen extends StatelessWidget {
                         child: Text(
                           'PROFILE',
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.tealAccent,
                             fontSize: 20.0,
+                            fontWeight: FontWeight.w300,
+                            fontFamily: 'Exo2',
                           ),
                         ),
                       )
