@@ -81,7 +81,7 @@ class HomeScreen extends StatelessWidget {
                   color: Colors.teal,
                 ),
                 title: Text(
-                  'sumit.varun@rocketmail.com',
+                  'sumitvarun0781@gmail.com',
                   style: TextStyle(
                     color: Colors.teal,
                     fontFamily: 'Exo2',
